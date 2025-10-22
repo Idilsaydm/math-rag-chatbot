@@ -18,7 +18,20 @@ Bu proje, matematik problemleri veri seti kullanarak Retrieval-Augmented Generat
 | UI | Gradio |
 | Model | Gemini 1.5 Pro |
 
-## Kurulum
-```bash
-pip install google-generativeai faiss-cpu pandas numpy pyarrow tqdm gradio
+## Çalışma Kılavuzu (Kurulum ve Çalıştırma)
 
+Bu proje, bir Python sanal ortamı (`virtualenv`) içinde çalıştırılmak üzere tasarlanmıştır. Projeyi lokalinizde veya bulut ortamında ayağa kaldırmak için aşağıdaki adımları izleyin.
+
+#### Adım 1: Sanal Ortam (Virtual Environment) Kurulumu
+
+Proje bağımlılık çakışmalarını önlemek için bir sanal ortam oluşturulması şiddetle tavsiye edilir.
+
+```bash
+# Sanal ortam oluşturma
+python3 -m venv venv
+
+# Sanal ortamı etkinleştirme (Linux/macOS)
+source venv/bin/activate
+
+# Sanal ortamı etkinleştirme (Windows - PowerShell)
+.\venv\Scripts\activate
